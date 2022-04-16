@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           .nav {background: #61b5ee;direction: rtl;text-align: right;padding-right: 30px;}
+        ul.menu li {display: inline-block;padding: 15px;}
+        ul.submenu{display: none;background-color: rgb(64, 228, 50);}
+        a {text-decoration: none;}
+        ul.menu li:hover{background-color: rgb(243, 239, 13);}
+        ul.menu li:hover ul.submenu {display: grid;position: absolute;}
+        ul.submenu li:hover ul.submenu1{display: grid;position: absolute;}
+        ul.submenu1 {background-color: rgb(176, 165, 243);top:0;margin-right:70;}
+        ul.submenu1{display: none;}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="menu">
+          <li>
+            <a href="">خانه</a>
+          </li>
+
+          <li>
+            <a href="">محصولات</a>
+            <ul class="submenu">
+              <li>
+                <a href=""> لپ تاپ </a>
+                <ul class="submenu1">
+                        <li>
+                        <a href="">عنصر اول</a>
+                        </li>
+                        <li>
+                            <a href="">عنصر دوم</a>
+                            </li>
+
+                            <li>
+                                <a href="">عنصر سوم</a>
+                                </li>
+            </ul>    
+                    </li>
+                    <li>
+                    <a href=""> موبایل </a>
+                    <ul class="submenu1">
+                        <li>
+                        <a href="">عنصر اول</a>
+                        </li>
+                        <li>
+                            <a href="">عنصر دوم</a>
+                            </li>
+
+                            <li>
+                                <a href="">عنصر سوم</a>
+                                </li>
+            </ul>
+                    </li>
+                     <li>
+                     <a href=""> لوازم جانبی </a>
+                     <ul class="submenu1">
+                        <li>
+                        <a href="">عنصر اول</a>
+                        </li>
+                        <li>
+                            <a href="">عنصر دوم</a>
+                            </li>
+
+                            <li>
+                                <a href="">عنصر سوم</a>
+                                </li>
+            </ul>
+                     </li>
+
+            </ul>
+          </li>
+
+        </ul> 
+      </div>
+
+</body>
+</html> 
